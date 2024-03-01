@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/flexboxgrid2@7.2.1/flexboxgrid2.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+    <script src="./script.js" defer></script>
+    <title>Uber Eats</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <nav class="header__menu">
+                    <div class="header__logo">
+                        <a href="./page1">
+                            <img src="/img/logo.svg" alt="logo">
+                        </a>
+                    </div>
+                    <div class="header__links">
+                        <a href="./page2" class="link_btn">
+                            Войти
+                        </a>
+                        <a href="./page3" class="link">
+                            <img src="/img/basket.svg" alt="basket">
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="search">
+            <div class="container">
+                <input 
+                type="text" 
+                class="search__input"
+                placeholder="Поиск по ресторанам и кухням"
+                />
+            </div>
+        </div>
+        <main class="main">
+            <div class="container" id="main__container">
+                <h1 class="main__heading">
+                    Рестораны в Москве
+                </h1>
+                <div class="main__cardlist row" id="main__cardlist">
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
