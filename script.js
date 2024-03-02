@@ -72,4 +72,5 @@ function generateCards() {
         cardList.innerHTML += createCard(item)
     })
 }
-generateCards()
+generateCards();
+const a = b;
