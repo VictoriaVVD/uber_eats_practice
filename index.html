@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/flexboxgrid2@7.2.1/flexboxgrid2.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+    <script src="./script.js" defer></script>
+    <title>Uber Eats</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <nav class="header__menu">
+                    <div class="header__logo">
+                        <a href="./page1">
+                            <img src="/img/logo.svg" alt="logo">
+                        </a>
+                    </div>
+                    <div class="header__links">
+                        <a href="./page2" class="link_btn">
+                            Войти
+                        </a>
+                        <a href="./page3" class="link">
+                            <img src="/img/basket.svg" alt="basket">
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="search">
+            <div class="container">
+                <input 
+                type="text" 
+                class="search__input"
+                placeholder="Поиск по ресторанам и кухням"
+                />
+            </div>
+        </div>
+        <main class="main">
+            <div class="container" id="main__container">
+                <h1 class="main__heading">
+                    Рестораны в Москве
+                </h1>
+                <div class="main__cardlist row" id="main__cardlist">
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__logo">
+                    <a href="./page4">
+                        <img src="/img/white-logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="footer__info">
+                    <div class="row">
+                        <div class="info__block col-lg-4 col-md-4 col-xs-12">
+                            <form action="">
+                                <select class="lang__menu" name="" id="">
+                                    <option class="lang__option" value="" selected>
+                                        Русский
+                                    </option>
+                                </select>
+                            </form>
+                            <div class="social__icons">
+                                <span class="hash">UberEats</span>
+                                <ul class="icons__list">
+                                    <li class="icon__item">
+                                        <a href="facebook" class="link social__link">
+                                            <img src="/img/facebook.svg" alt="facebook">
+                                        </a>
+                                    </li>
+                                    <li class="icon__item">
+                                        <a href="twitter" class="link social__link">
+                                            <img src="/img/twitter.svg" alt="twitter">
+                                        </a>
+                                    </li>
+                                    <li class="icon__item">
+                                        <a href="instagram" class="link social__link">
+                                            <img src="/img/instagram.svg" alt="instagram">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="info__block col-lg-4 col-md-4 col-xs-12">
+                            <ul class="info__list">
+                                <li><a class="link" href="./page5">Об UberEats</a></li>
+                                <li><a class="link" href="./page6">Станьте партнёром по доставке</a></li>
+                                <li><a class="link" href="./page7">Станьте парнёром-рестораном</a></li>
+                            </ul>
+                        </div>
+                        <div class="info__block col-lg-4 col-md-4 col-xs-12">
+                            <ul class="info__list">
+                                <li><a class="link" href="./page8">Все города</a></li>
+                                <li><a class="link" href="./page9">Цены по доставке</a></li>
+                                <li><a class="link" href="./page10">Помощь</a></li>
+                                <li><a class="link" href="./page11">FAQs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__apps">
+                    <a href="App_Store" class="apps__link">
+                        <img src="/img/Download_on_the_App_Store.png" alt="app">
+                    </a>
+                    <a href="Google_Play" class="apps__link">
+                        <img src="/img/Download_on_Google_Play.png" alt="app">
+                    </a>
+                </div>
+                <div class="footer__footer">
+                    <ul class="footer__list row">
+                        <li class="info__block col-lg-4 col-md-4 col-xs-12">
+                            <a href="./page12" class="link fz_xs">
+                                © 2017 Uber Technologies Inc.
+                            </a>
+                        </li>
+                        <li class="info__block col-lg-4 col-md-4 col-xs-12">
+                            <a href="./page13" class="link fz_xs">
+                                Обработка персональных данных
+                            </a>
+                        </li>
+                        <li class="info__block col-lg-4 col-md-4 col-xs-12">
+                            <a href="./page14" class="link fz_xs">
+                                Пользовательское соглашение
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
