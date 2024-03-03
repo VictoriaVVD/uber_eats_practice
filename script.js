@@ -73,4 +73,3 @@ function generateCards() {
     })
 }
 generateCards();
-const a = b;
